@@ -14,13 +14,13 @@
   </head>
   <body>
     <div class="container">
-       <hi class="display-4 mb-4">Fetch API Sandbox</hi>
-       <div class="d-flex">
+      <hi class="display-4 mb-4">Fetch API Sandbox</hi>
+      <div class="d-flex">
         <button class="btn-primary mr-4" id="getText">Get Text</button>
         <button class="btn-success mr-4" id="getUsers">Get JSON</button>
         <button class="btn-warning mr-4" id="getPosts">Get API DATA</button>
-       </div>
-       <hr>
+      </div>
+      <hr>
       <div id="output"></div>
       <form id="addPost">
         <div class="form-group">
@@ -81,8 +81,8 @@
             data.forEach(function(post) {
               output += `
                 <div class="card card-body mb-3">
-                   <h3>${post.title}</h3>
-                   <p>${post.body}</p>                                                
+                  <h3>${post.title}</h3>
+                  <p>${post.body}</p>                                                
                 </div>
               `;
             });
